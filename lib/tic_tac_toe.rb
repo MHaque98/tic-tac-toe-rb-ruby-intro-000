@@ -113,5 +113,6 @@ end
 def play(board)
   until over?(board)
       turn(board)
+      current_player(board)
   end
 end
