@@ -115,4 +115,9 @@ def play(board)
       turn(board)
       current_player(board)
   end
+  if won?(board)
+    winner = winner(board)
+    puts "Congratulations #{winner}!"
+  end
+    
 end
